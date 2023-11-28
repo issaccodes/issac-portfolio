@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #121321;
+}
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    height: 800px;
+    width: 600px;
+    text-align: center;
+    backdrop-filter: blur(25px);
+    background-color:rgb(255, 255, 255, 0.1) ;
+    border-radius: 2rem;
+}
+
+.image {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(50%);
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 50%;
+    border: 4px solid rgb(138, 36, 233);
+    padding: 4px;
+}
+.image .profile-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-name {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 16px;
+}
+.skills-list {
+    color: rgb(113, 110, 110);
+    display: inline-flex;
+    margin-top: 80px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 2px solid gray;
+}
+.skills-list:last-child {
+    border: none;
+}
+.btn {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 2rem;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:rgb(138, 36, 233);
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(107, 31, 178);
+}
+.btn:active {
+    background-color: rgb(182, 191, 76);
+}
+.text-field {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: rgb(113, 110, 110);
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.032);
+}
